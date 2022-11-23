@@ -1,0 +1,60 @@
+header{
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.busqueda{
+    width: 75vh;
+    height: 25px;
+}
+.buscar{
+    width: 10vh;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.portada{
+    background-image: url(../img/final.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+
+    background-color: rgb(67, 67, 144);
+    
+}
+nav a{
+
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 25px;
+    height: 5px;
+    
+    text-decoration: none;
+    color: white;
+
+    border-right: 1px solid black;
+    border-width: 0%;
+}
+
+nav a:last-child{
+    border-right: 0;
+}
+
+.portada{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
