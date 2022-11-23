@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(57, 57, 106);
+}
+
 header{
     background-color: black;
 
@@ -15,13 +19,6 @@ header{
     width: 10vh;
     height: 25px;
     margin-right: 20px;
-}
-
-.portada{
-    background-image: url(../img/final.jpg);
-    background-size: cover;
-    height: 70vh;
-    width: 100%;
 }
 
 nav{
@@ -54,7 +51,27 @@ nav a:last-child{
 }
 
 .portada{
+    
     color: white;
     font-size: 18px;
     text-align: left;
+
+    height: 70vh;
+    width: 100%;
 }
+
+main img{
+    
+}
+
+main div{
+    position: absolute;
+    z-index: 1;
+
+    text-align: left;
+    color:black;
+}
+main div p{
+    width: 35%;    
+}
+
